@@ -1,3 +1,5 @@
+GIFcommit00004
+
 # Layout study 05 — No Milk Records, as GIFmilk Records
 
 **Live:** https://gregoryedgerton.github.io/golden-grids-study-05-nmr/
