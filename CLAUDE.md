@@ -268,3 +268,5 @@ opened in StackBlitz at `https://stackblitz.com/~/github.com/gregoryedgerton/gol
 - Do not append `?file=` to the `~/github.com` link; it made the IDE fail to
   start in testing. The classic `/github/` importer accepts `?file=` but waits
   on a WebSocket and can stall at "Cloning repo from GitHub".
+
+- **Address (2026-10-17, Greg).** The repository moved from `golden-grids-study-05-nmr` to `golden-grids-study-05-gifmilk`, so the reference's name is no longer in the study's web address (a step against the Safe Browsing flag on the shared origin); the old address no longer serves anything.

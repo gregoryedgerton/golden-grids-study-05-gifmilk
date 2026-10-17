@@ -2,7 +2,7 @@ GIFcommit00004
 
 # Layout study 05 — No Milk Records, as GIFmilk Records
 
-**Live:** https://gregoryedgerton.github.io/golden-grids-study-05-nmr/
+**Live:** https://gregoryedgerton.github.io/golden-grids-study-05-gifmilk/
 
 A layout study of the No Milk Records website, nmr.gifcommit.com, as it
 stood in 2007: the DIY punk and emo label Greg Edgerton and Kyle
@@ -139,3 +139,5 @@ npm run dev
 `npm run build` type-checks and builds all seventeen pages to `dist/`;
 pushing to `main` deploys to GitHub Pages. The library is consumed from npm
 at its published version.
+
+- **Address (2026-10-17, Greg).** The repository moved from `golden-grids-study-05-nmr` to `golden-grids-study-05-gifmilk`, so the reference's name is no longer in the study's web address (a step against the Safe Browsing flag on the shared origin); the old address no longer serves anything.
