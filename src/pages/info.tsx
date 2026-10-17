@@ -52,7 +52,7 @@ mount(
     <Contact />
     <Faq />
     <Plain id="jobs" title="Jobs & internships" lesson="Work for GIFmilk Records: the openings as posted." />
-    <Plain id="street" title="Street team" lesson="Sign up, promote, flyer, sticker." />
+    <Plain id="street" title="Street team" lesson="Promote, flyer, sticker." />
     <Plain id="links" title="Links" lesson="The roster's own sites, the community, labels and distribution, composers, and the rest." />
     <NewsletterBand />
   </Page>

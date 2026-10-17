@@ -179,14 +179,13 @@ export function NewsletterBand() {
   // the type takes the hero and the form has 453px in the square beside it.
   const typeHero = viewport === "desktop";
   return (
-    <Band id="newsletter" title="GIFmilk newsletter" lesson="Name and email, for news on shows and releases; the original went to a mailing list run from the label's office. Nothing is sent from here." note={`from=1 to=${single ? 1 : 3} · placement="bottom" · clockwise=false · type fills the hero`}>
+    <Band id="newsletter" title="GIFmilk newsletter" lesson="Email, for news on shows and releases; the original asked for a name as well and went to a mailing list run from the label's office. Nothing is sent from here." note={`from=1 to=${single ? 1 : 3} · placement="bottom" · clockwise=false · type fills the hero`}>
       <GoldenGrid from={1} to={single ? 1 : 3} placement="bottom" clockwise={false}>
         {!single && typeHero && <GoldenBox><Fact label="GIFmilk Records" tone="ink">{"Hype,\ngossip,\nshows"}</Fact></GoldenBox>}
         <GoldenBox>
           <div className="box">
-            <p className="box__label">Sign up</p>
+            <p className="box__label">Mailing list</p>
             <form className="form" onSubmit={(e) => e.preventDefault()}>
-              <label htmlFor="nl-name">Name</label><input id="nl-name" name="name" autoComplete="off" />
               <label htmlFor="nl-email">E-mail</label><input id="nl-email" name="email" type="email" autoComplete="off" />
               <button className="btn" type="submit">Subscribe</button>
               <p className="box__source">A demonstration; nothing is sent.</p>

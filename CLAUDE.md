@@ -270,3 +270,19 @@ opened in StackBlitz at `https://stackblitz.com/~/github.com/gregoryedgerton/gol
   on a WebSocket and can stall at "Cloning repo from GitHub".
 
 - **Address (2026-10-17, Greg).** The repository moved from `golden-grids-study-05-nmr` to `golden-grids-study-05-gifmilk`, so the reference's name is no longer in the study's web address (a step against the Safe Browsing flag on the shared origin); the old address no longer serves anything.
+
+## Safe Browsing remediation (2026-10)
+
+On 2026-10-17 Google Safe Browsing flagged the whole origin
+gregoryedgerton.github.io as social engineering (first trigger: Study 19's
+demo bank sign-in). The scanner reads appearance, so every study dropped what
+looks like collecting personal data or signing in; see the template's
+CLAUDE.md "Safe Browsing" section for the full list.
+
+**What changed here:** the newsletter box asks for an email only (the Name
+field is gone, and the band's lesson says the original also asked for a
+name), its label reads "Mailing list" rather than "Sign up", and the Street
+team lesson no longer opens with "Sign up".
+
+**Never bring back:** name, phone or address fields, a personal autofill
+token, or sign-in/sign-up wording on a control or label.
